@@ -22,19 +22,31 @@
                 <!-- Site Logo -->
                 <img src="./assests/images/site-logo.png" alt="Logo" class="site-logo">
             </div>
-            <div class="col-4" style="width: 40%;">
+            <div class="col-4" style="width: 45%;">
                 <!-- Search Box -->
-                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group">
+                    <select class="form-select input-style span-font" style="width: 25%; border-right: none;">
+                        <option value="">All Categories</option>
+                        <option value="">Category 2</option>
+                        <option value="">Category 3</option>
+                        <!-- Add more categories as needed -->
+                    </select>
+                    <input type="text" class="form-control input-style" placeholder="Search Something..." style="width: 60%; border-left: none; border-right: none;">
+                    <span class="input-group-text input-style span-font" style="border-left: none;">
+                        <i class="fas fa-search input-style span-font"></i>
+                    </span>
+                </div>
             </div>
-            <div class="col-2" style="width: 20%;">
+            <div class="col-2" style="width: 15%; display: flex; flex-direction: column; align-items: left; justify-content: center; gap: 0px;">
                 <!-- Contact Number -->
-                <p>Inquiries and Support  </br>+1234567890</p>
+                <span class="span-font">Inquiries and Support</span>
+                <span class="span-font">+1234567890</span>
             </div>
-            <div class="col-2" style="width: 20%; display: flex; gap: 50px;">
+            <div class="col-2" style="width: 20%; display: flex; gap: 40px;">
                 <!-- Icon Group (User, Wishlist, Cart) -->
-                <i class="fas fa-user"></i>
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user" style="display: flex; align-items: center;"></i>
+                <i class="fas fa-heart" style="display: flex; align-items: center;"></i>
+                <span style="text-align: right; display: flex; align-items: center; font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 16px;"></i>&nbsp &nbsp &nbsp &nbsp My Cart </br>LKR 2500</span>
             </div>
         </div>
     </div>
