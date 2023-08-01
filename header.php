@@ -42,11 +42,35 @@
                 <span class="span-font">Inquiries and Support</span>
                 <span class="span-font">+1234567890</span>
             </div>
-            <div class="col-2" style="width: 20%; display: flex; gap: 40px;">
+            <div class="col-2" style="width: 20%; display: flex; gap: 40px; color: #000;">
                 <!-- Icon Group (User, Wishlist, Cart) -->
                 <i class="fas fa-user" style="display: flex; align-items: center;"></i>
                 <i class="fas fa-heart" style="display: flex; align-items: center;"></i>
                 <span style="text-align: right; display: flex; align-items: center; font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 16px;"></i>&nbsp &nbsp &nbsp &nbsp My Cart </br>LKR 2500</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2" style="width: 20%; justify-content: left; padding-left: 30px;">
+                <!-- Categories Button -->
+                    <button type="button" class="button-style-primary"><i class="fa fa-bars icon-style"></i>&nbsp &nbsp All Categories &nbsp &nbsp<i class="fa fa-angles-down icon-style"></i></button>
+            </div>
+            <div class="col-8" style="width: 60%;">
+                <!-- Navigation Menu -->
+                <nav class="navbar navbar-expand">
+                    <!-- Add your navigation links here -->
+                    <a>New Products</a>
+                    <a>Best Seller</a>
+                    <a>Promotions</a>
+                    <a>Special Price</a>
+                    <a>Offers</a>
+                </nav>
+            </div>
+            <div class="col-2" style="width: 20%; justify-content: right; padding-right: 30px;">
+                <!-- "Become a Member" Button -->
+                <button type="button" class="button-style-primary">Become a Member</button>
             </div>
         </div>
     </div>

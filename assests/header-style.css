@@ -2,6 +2,7 @@
     font-family: 'Rubik', sans-serif;
     background-color: #fff;
     color: #4B4B4B;
+    font-size: 14px;
 }
 
 .site-logo{
@@ -26,6 +27,12 @@
 
 .span-font{
     font-size: 14px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 @media (min-width: 1200px){

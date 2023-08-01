@@ -7,3 +7,17 @@ body{
     color: #998F8F;
     border-radius: 5px;
 }
+
+.button-style-primary{
+    background-color: #FFC107;
+    color: #4B4B4B;    ;
+    border-radius: 5px;
+    border: 1px solid #FFC107;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.icon-style{
+    background-color: transparent;
+    font-size: 10px;
+}
