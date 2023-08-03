@@ -5,6 +5,7 @@
 
         <link href="./assests/header-style.css" rel="stylesheet">
         <link href="./assests/style.css" rel="stylesheet">
+        <link href="./assests/index.css" rel="stylesheet">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
