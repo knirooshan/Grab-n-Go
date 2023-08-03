@@ -24,12 +24,12 @@
         </div>
 
         <!-- Slide 2 (Add more slides as needed) -->
-        <div class="carousel-item slide-item" style="background-image: url('./assests/images/gng-slide-2.jpg');">
+        <div class="carousel-item slide-item" style="background-image: url('./assests/images/gng-slide-2.png');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-4 slide-content">
                         <div class="inner-content">
-                            <h2>Discover New Amazing </br>Grocery Deals</h2>
+                            <h2>Discover New </br>Electronic Deals</h2>
                             <p>The most Healty organic </br>Food is save for health</p>
                             <button class="btn btn-primary">Shop Now</button>
                         </div>
