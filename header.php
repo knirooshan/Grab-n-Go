@@ -1,7 +1,6 @@
 <html>
-
-    <head>
-
+    <head>        
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
         <link href="./assests/header-style.css" rel="stylesheet">
@@ -14,8 +13,7 @@
     </head>
 
     <body>
-
-    <header>
+        <header>
     <div class="container">
         <div class="row">
             <div class="col-2" style="width: 20%;">
@@ -46,7 +44,7 @@
                 <!-- Icon Group (User, Wishlist, Cart) -->
                 <i class="fas fa-user" style="display: flex; align-items: center;"></i>
                 <i class="fas fa-heart" style="display: flex; align-items: center;"></i>
-                <span style="text-align: right; display: flex; align-items: center; font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 16px;"></i>&nbsp &nbsp &nbsp &nbsp My Cart </br>LKR 2500</span>
+                <span style="text-align: right; display: flex; align-items: center; font-size: 12px;"><i class="fas fa-shopping-cart" style="font-size: 16px; position: relative;"><span class="product-count" style="font-size: 10px; background-color: #ffc107; color: #fff; padding: 4px 6px; border-radius: 50%; position: absolute; top: -10; left: -10;">2</span></i>&nbsp &nbsp &nbsp &nbsp My Cart </br>LKR 2500</span>
             </div>
         </div>
     </div>
@@ -74,3 +72,4 @@
             </div>
         </div>
     </div>
+</header>
