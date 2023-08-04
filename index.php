@@ -30,7 +30,7 @@
                     <div class="col-md-6 col-lg-4 slide-content">
                         <div class="inner-content">
                             <h2>Discover New </br>Electronic Deals</h2>
-                            <p>The most Healty organic </br>Food is save for health</p>
+                            <p>The latest electronic items </br>for afordable prices</p>
                             <button class="btn btn-primary">Shop Now</button>
                         </div>
                     </div>
@@ -60,6 +60,9 @@
             </div>
         </div>
     </div>
+
+    <?php include('category-slider.php'); ?>
+
 </main>
 
 <?php include('footer.php'); ?>
