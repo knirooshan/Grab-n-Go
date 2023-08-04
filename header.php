@@ -3,9 +3,9 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-        <link href="./assests/header-style.css" rel="stylesheet">
-        <link href="./assests/style.css" rel="stylesheet">
-        <link href="./assests/index.css" rel="stylesheet">
+        <link href="./assests/css/header-style.css" rel="stylesheet">
+        <link href="./assests/css/style.css" rel="stylesheet">
+        <link href="./assests/css/index.css" rel="stylesheet">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

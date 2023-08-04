@@ -1,6 +1,15 @@
 .category-slider-main {
     padding: 25px 25px 35px 25px;
     background-color: #fff;
+    overflow: hidden; /* Hide extra slides */
+}
+
+.category-content-main{
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.slider-content-main{
+    overflow: hidden;
 }
 
 .category-slider-header {
@@ -40,7 +49,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 80px;
-    overflow: hidden; /* Hide extra slides */
+    transition: transform 1s ease;
 }
 
 .cs-single-slide {
@@ -83,6 +92,6 @@
     }
 
     #categoryCarousel{
-        gap:30px;
+        gap: 30px;
     }
 }

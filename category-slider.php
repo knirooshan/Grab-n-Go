@@ -1,4 +1,5 @@
-<link href="./assests/category-slider.css" rel="stylesheet">
+<link href="./assests/css/category-slider.css" rel="stylesheet">
+<script src="./assests/js/category-slider.js"></script>
 
 <div class="category-slider-main">
 <div class="container">
@@ -39,7 +40,7 @@
                 </div>
             </div>
 
-            <!--Third Slide-->
+            <!--Second Slide-->
             <div class="cs-single-slide" style="background: radial-gradient(59.04% 59.04% at 67.18% 74.95%, #F8847C 0%, #F9574C 100%);">
                 <div class="cs-slide-content">
                     <span>New Arrival</span>
@@ -64,12 +65,37 @@
             </div>
 
             <!--Fifth Slide-->
-            <div class="cs-single-slide">
+            <div class="cs-single-slide" style="background: radial-gradient(54.3% 54.3% at 71.26% 74.91%, #1EF2BF 0%, #21C79F 100%);">
+                <div class="cs-slide-content">
+                    <span>New Arrival</span>
+                    <h2>Groceries</h2>
+                </div>
+            </div>
+
+            <!--Sixth Slide-->
+            <div class="cs-single-slide" style="background: radial-gradient(59.04% 59.04% at 67.18% 74.95%, #F8847C 0%, #F9574C 100%);">
+                <div class="cs-slide-content">
+                    <span>New Arrival</span>
+                    <h2>Computers</h2>
+                </div>
+            </div>
+            
+            <!--Seventh Slide-->
+            <div class="cs-single-slide" style="background: radial-gradient(55.04% 55.04% at 74.5% 55.32%, #FFD36C 0%, #FFC12F 100%);">
+                <div class="cs-slide-content">
+                    <span>New Arrival</span>
+                    <h2>Accessories</h2>
+                </div>
+            </div>
+            
+            <!--Eighth Slide-->
+            <div class="cs-single-slide" style="background: radial-gradient(76.4% 76.4% at 72.7% 66.55%, #2F4A6B 0%, #1A324F 100%);">
                 <div class="cs-slide-content">
                     <span>New Arrival</span>
                     <h2>Clothes</h2>
                 </div>
             </div>
+
         </div>
 </div>
     </div>
