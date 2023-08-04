@@ -62,6 +62,7 @@
     </div>
 
     <?php include('category-slider.php'); ?>
+    <?php include('product-slider.php'); ?>
 
 </main>
 
