@@ -63,6 +63,7 @@
 
     <?php include('category-slider.php'); ?>
     <?php include('product-slider.php'); ?>
+    <?php include('hot-offers.php'); ?>
 
 </main>
 
