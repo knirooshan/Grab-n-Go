@@ -32,45 +32,13 @@
         <div class="slider-content-main">
         <div id="productCarousel">
 
-            <!--First Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-
-            <!--Second Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-            
-            <!--Third Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-            
-            <!--Fourth Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-
-            <!--Fifth Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-
-            <!--Sixth Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-            
-            <!--Seventh Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
-            
-            <!--Eighth Slide-->
-            <div class="ps-single-slide">
-                <?php include('product-loop-item.php'); ?>
-            </div>
+            <?php
+                for ($x = 1; $x <= 8; $x++) {
+                    echo '<div class="ps-single-slide">';
+                    include('product-loop-item.php');
+                    echo '</div>';
+                }
+            ?>
 
         </div>
 </div>
