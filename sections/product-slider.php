@@ -35,7 +35,7 @@
             <?php
                 for ($x = 1; $x <= 8; $x++) {
                     echo '<div class="ps-single-slide">';
-                    include('product-loop-item.php');
+                    include('./templates/product-loop-item.php');
                     echo '</div>';
                 }
             ?>

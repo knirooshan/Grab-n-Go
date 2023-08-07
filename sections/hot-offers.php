@@ -19,7 +19,7 @@
                 <div class="offer-product-row">
                     <?php
                         for ($x = 1; $x <= 4; $x++) {
-                            include('offer-product-loop.php');
+                            include('./templates/offer-product-loop.php');
                         }
                     ?>
                 </div>
@@ -39,7 +39,7 @@
                 <div class="offer-product-row">
                     <?php
                         for ($x = 1; $x <= 4; $x++) {
-                            include('offer-product-loop.php');
+                            include('./templates/offer-product-loop.php');
                         }
                     ?>
                 </div>

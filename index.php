@@ -61,12 +61,12 @@
         </div>
     </div>
 
-    <?php include('category-slider.php'); ?>
-    <?php include('product-slider.php'); ?>
-    <?php include('hot-offers.php'); ?>
-    <?php include('hot-collection.php'); ?>
-    <?php include('bottom-banners.php'); ?>
-    <?php include('our-choice.php'); ?>
+    <?php include('./sections/category-slider.php'); ?>
+    <?php include('./sections/product-slider.php'); ?>
+    <?php include('./sections/hot-offers.php'); ?>
+    <?php include('./sections/hot-collection.php'); ?>
+    <?php include('./sections/bottom-banners.php'); ?>
+    <?php include('./sections/our-choice.php'); ?>
 
 </main>
 
