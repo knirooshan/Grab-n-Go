@@ -64,6 +64,7 @@
     <?php include('category-slider.php'); ?>
     <?php include('product-slider.php'); ?>
     <?php include('hot-offers.php'); ?>
+    <?php include('bottom-banners.php'); ?>
 
 </main>
 
