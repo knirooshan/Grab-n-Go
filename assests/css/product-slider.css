@@ -4,6 +4,11 @@
     overflow: hidden; /* Hide extra slides */
 }
 
+.hc-slider-main{
+    padding: 25px 25px 35px 25px;
+    background: #fff;
+}
+
 .product-content-main{
     overflow-x: hidden; /* Hide horizontal overflow */
 }
@@ -45,7 +50,14 @@
     background-color: rgba(255, 197, 14, 0.01);
 }
 
-#productCarousel {
+#productCarousel{
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    transition: transform 1s ease;
+}
+
+.hot-collection{
     display: flex;
     justify-content: flex-start;
     gap: 80px;
@@ -74,6 +86,13 @@
     font-size: 12px;
 }
 
+.collection-content-main{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
 /* Responsive Media Queries */
 @media (min-width: 768px) {
     .ps-single-slide {
@@ -81,6 +100,10 @@
     }
 
     #productCarousel{
+        gap: 50px;
+    }
+
+    .hot-collection{
         gap: 50px;
     }
 }
@@ -91,6 +114,10 @@
     }
 
     #productCarousel{
+        gap: 30px;
+    }
+
+    .hot-collection{
         gap: 30px;
     }
 }
