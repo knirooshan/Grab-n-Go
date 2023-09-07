@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const isMobileDevicePS = viewportWidth <= 992;
     
     // Adjust productSlideWidth and maxProductSlide based on device type
-    const productSlideWidth = isMobileDevicePS ? productSlides[0].clientWidth + 50 : productSlides[0].clientWidth + 30;
+    const productSlideWidth = isMobileDevicePS ? productSlides[0].clientWidth + 80 : productSlides[0].clientWidth + 30;
     const maxProductSlide = isMobileDevicePS ? productSlides.length - 2 : productSlides.length - 4;
     
     let currentProductSlide = 0;
