@@ -77,13 +77,14 @@
 }
 
 /* Responsive Media Queries */
-@media (min-width: 768px) {
+@media (max-width: 992px) {
     .cs-single-slide {
-        min-width: 45%;
+        min-width: 48%;
+        height: 240px;
     }
 
     #categoryCarousel{
-        gap: 50px;
+        gap: 30px;
     }
 }
 
