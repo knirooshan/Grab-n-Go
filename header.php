@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container db">
         <div class="row">
             <div class="col-2" style="width: 20%; justify-content: left; padding-left: 30px;">
                 <!-- Categories Button -->
@@ -73,4 +73,85 @@
             </div>
         </div>
     </div>
+
+    <div class="mheader">
+        <div class="top-row">
+            <img src="./assests/images/site-logo.png" alt="Logo" class="site-logo-m">
+            <button id="menu-toggle" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav id="mobile-menu">
+            <button id="close-button" onclick="closeMenu()">X</button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bottom-row">
+
+        </div>
+    </div>
+
 </header>
+
+<script>
+    const dheader = document.querySelector("header > div");
+    const dheaderb = document.querySelector("header > div.db");
+    const mheader = document.querySelector("div.mheader");
+    if (document.documentElement.clientWidth <= 992) {
+       dheader.style.display = "none";
+       dheaderb.style.display = "none";
+       mheader.style.display = "flex";
+    }else{
+        mheader.style.display = "none";
+    }
+
+    //menu
+    const mobileMenu = document.getElementById('mobile-menu');
+
+function fadeOut(element, duration) {
+    let opacity = 1;
+    const interval = 50; // Interval in milliseconds
+    const delta = interval / duration;
+
+    const fadeOutInterval = setInterval(function () {
+        if (opacity <= 0) {
+            clearInterval(fadeOutInterval);
+            element.style.display = 'none'; // Hide the element when faded out
+        } else {
+            element.style.opacity = opacity;
+            opacity -= delta;
+        }
+    }, interval);
+}
+
+function fadeIn(element, duration) {
+    let opacity = 0;
+    const interval = 50; // Interval in milliseconds
+    const delta = interval / duration;
+
+    element.style.display = 'block'; // Show the element before fading in
+
+    const fadeInInterval = setInterval(function () {
+        if (opacity >= 1) {
+            clearInterval(fadeInInterval);
+        } else {
+            element.style.opacity = opacity;
+            opacity += delta;
+        }
+    }, interval);
+}
+
+function openMenu() {
+    fadeIn(mobileMenu, 300); // Fade in over 300 milliseconds (adjust as needed)
+}
+
+function closeMenu() {
+    fadeOut(mobileMenu, 300); // Fade out over 300 milliseconds (adjust as needed)
+}
+
+
+</script>
