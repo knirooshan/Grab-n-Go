@@ -51,9 +51,9 @@
                 <div class="flex2">
                     <div class="hero-promo" style="background-image: url('./assests/images/hero-image.png');">
                         <div class="inner-content-hero">
-                            <span>Big Sale</span>
-                            <h2>Asus ROG Laptop</h2>
-                            <button class="btn btn-primary">15% OFF</button>
+                            <span class="banner-span">Big Sale</span>
+                            <h2 class="banner-h2">Asus ROG Laptop</h2>
+                            <button class="btn btn-primary banner-button">15% OFF</button>
                         </div>
                     </div>
                 </div>
