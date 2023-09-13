@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="assests/css/responsive.css">
     <link rel="stylesheet" href="assests/css/bottom-banners.css">
     <link rel="stylesheet" href="assests/css/category-slider.css">
-    <link rel="stylesheet" href="assests/css/product-slider.css">
     <link rel="stylesheet" href="assests/css/hot-offers.css">
     <link rel="stylesheet" href="assests/css/index.css">
     <link rel="stylesheet" href="assests/css/offer-product-loop.css">

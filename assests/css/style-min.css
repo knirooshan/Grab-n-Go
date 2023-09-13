@@ -1017,7 +1017,6 @@ p:last-child {
 
 .btn-brd,
 .iconset,
-.section-header,
 .slick-dots,
 .slick-next,
 .slick-prev {
@@ -1974,7 +1973,7 @@ textarea:-ms-input-placeholder {
 
 .section {
     padding-top: 60px;
-    padding-bottom: 60px
+    padding-bottom: 60px!important;
 }
 
 .footer-3 .footer-logo-links,
@@ -6024,8 +6023,8 @@ textarea:-ms-input-placeholder {
 .index-demo7 #site-scroll:hover,
 .index-demo7 .btn-primary:hover {
     color: #fff;
-    background-color: #528c01;
-    border-color: #528c01
+    background-color: #000;
+    border-color: #000;
 }
 
 .index-demo7 .btn-outline-primary,
