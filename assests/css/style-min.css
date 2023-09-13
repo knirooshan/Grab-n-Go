@@ -6146,7 +6146,7 @@ textarea:-ms-input-placeholder {
 }
 
 .index-demo7 .newsletterbg {
-    background-color: #18604a;
+    background-color: #000;
     color: #fff;
     padding: 30px 0
 }
@@ -10696,7 +10696,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-7 {
-    background: url(../images/slideshow/demo7-banner-overlay.jpg) center
+    background-color: #fff;
 }
 
 .footer-7.footer.ftr-bg-black .footer-top {
