@@ -160,5 +160,19 @@
 
 <script src="https://kit.fontawesome.com/376e5f6ada.js" crossorigin="anonymous"></script>
 
+ <!-- Including Jquery/Javascript -->
+            <!-- Plugins JS -->
+            <script src="assests/js/plugins.js"></script>
+            <!-- Main JS -->
+            <script src="assests/js/main.js"></script>
+            <!--Newsletter Modal Cookies-->
+            <script>
+                $(window).ready(function () {
+                    setTimeout(function () {
+                        $('#newsletter_modal').modal("show");
+                    }, 7000);
+                });
+            </script>
+
 </body>
 </html>
