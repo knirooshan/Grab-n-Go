@@ -1,26 +1,22 @@
-<link href="./assests/css/bottom-banners.css" rel="stylesheet">
-
-<div class="bottom-banners-main">
-    <div class="container">
-        <div class="row">
-            <div class="bottom-banner-item"
-                style="background-image: url('./assests/images/bottom-banner-img-1.png');">
-                <h4 class="top-heading">Essentials Package</h4>
-                <h5 class="price-heading">Rs. 18000.00/Package</h5>
-                <h5 class="member-price-heading">Rs. 18000.00/For Members</h5>
-            </div>
-            <div class="bottom-banner-item"
-                style="background-image: url('./assests/images/bottom-banner-img-2.png');">
-                <h4 class="top-heading">Drinks Package</h4>
-                <h5 class="price-heading">Rs. 18000.00/Package</h5>
-                <h5 class="member-price-heading">Rs. 18000.00/For Members</h5>
-            </div>
-            <div class="bottom-banner-item"
-                style="background-image: url('./assests/images/bottom-banner-img-3.png');">
-                <h4 class="top-heading">Enjoy Package</h4>
-                <h5 class="price-heading">Rs. 18000.00/Package</h5>
-                <h5 class="member-price-heading">Rs. 18000.00/For Members</h5>
+<!--Parallax Banner-->
+<div class="section parallax-banner-style1 py-0">
+    <div class="hero hero-large hero-overlay bg-size">
+        <img class="bg-img" src="assests/images/parallax/demo7-parallax-banner.jpg" alt="parallax-banner" width="1920"
+            height="645" />
+        <div class="hero-inner d-flex-justify-center">
+            <div class="container">
+                <div class="wrap-text mx-auto text-center">
+                    <h1 class="hero-title">Super Deals Of The Week <br><span class="text-primary">50% OFF</span></h1>
+                    <!--Countdown Timer-->
+                    <div class="hero-saleTime dark saleTime-circle d-flex-justify-center text-center"
+                        data-countdown="2023/10/01"></div>
+                    <!--End Countdown Timer-->
+                    <p class="hero-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text</p>
+                    <a href="" class="hero-btn btn btn-primary rounded-pill">Shop now</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<!--End Parallax Banner-->

@@ -11671,3 +11671,11 @@ textarea:-ms-input-placeholder {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp
 }
+
+.cs-slide-content h2{
+    color: #fff;
+}
+
+.slider-buttons{
+    display: none!important;
+}

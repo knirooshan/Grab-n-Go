@@ -9,7 +9,6 @@
                 <!-- Category Slider Heading and Link (Left side) -->
                 <div class="col-6 slider-up-left">
                     <h3>Browse Our Categories</h3>
-                    <a href="#">All Categories ></a>
                 </div>
 
                 <!-- Category Slider Navigation Arrows (Right side) -->
