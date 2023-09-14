@@ -715,7 +715,8 @@ h1 {
 .index-demo8 .one-banner-section .details,
 .product-review-form .product-review .anm,
 h2 {
-    font-size: 20px
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .about-section .about-details .small-text,

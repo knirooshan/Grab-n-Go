@@ -1,4 +1,3 @@
-<link href="./assests/css/category-slider.css" rel="stylesheet">
 <script src="./assests/js/category-slider.js"></script>
 
 <div class="category-slider-main">
@@ -8,7 +7,7 @@
             <div class="row category-slider-header">
                 <!-- Category Slider Heading and Link (Left side) -->
                 <div class="col-6 slider-up-left">
-                    <h3>Browse Our Categories</h3>
+                    <h2>Browse Our Categories</h2>
                 </div>
 
                 <!-- Category Slider Navigation Arrows (Right side) -->
