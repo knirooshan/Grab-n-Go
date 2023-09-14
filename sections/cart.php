@@ -66,7 +66,7 @@
                                     </div>
                                 </td>
                                 <td class="cart-price cart-flex-item text-center small-hide">
-                                    <span class="money">$99.00</span>
+                                    <span class="money">LKR 99.00</span>
                                 </td>
                                 <td class="cart-update-wrapper cart-flex-item text-end text-md-center">
                                     <div class="cart-qty d-flex justify-content-end justify-content-md-center">
@@ -103,11 +103,11 @@
                                         Color: Black<br>Size: Small<br>Qty: 1
                                     </div>
                                     <div class="cart-price d-md-none">
-                                        <span class="money fw-500">$128.00</span>
+                                        <span class="money fw-500">LKR 128.00</span>
                                     </div>
                                 </td>
                                 <td class="cart-price cart-flex-item text-center small-hide">
-                                    <span class="money">$128.00</span>
+                                    <span class="money">LKR 128.00</span>
                                 </td>
                                 <td class="cart-update-wrapper cart-flex-item text-end text-md-center">
                                     <div class="cart-qty d-flex justify-content-end justify-content-md-center">
@@ -122,7 +122,7 @@
                                         class="removeMb d-md-none d-inline-block text-decoration-underline mt-2 me-3">Remove</a>
                                 </td>
                                 <td class="cart-price cart-flex-item text-center small-hide">
-                                    <span class="money fw-500">$128.00</span>
+                                    <span class="money fw-500">LKR 128.00</span>
                                 </td>
                             </tr>
                         </tbody>
