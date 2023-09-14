@@ -894,9 +894,9 @@ p:last-child {
 .step-checkout .nav-link.active,
 .step-checkout .nav-link:focus,
 .step-checkout .nav-link:hover {
-    background-color: #2f415d;
-    color: #fff;
-    border-color: #2f415d
+    background-color: #ffc107;
+    color: #fff!important;
+    border-color: #ffc107;
 }
 
 .btn-light,
@@ -2070,7 +2070,7 @@ textarea:-ms-input-placeholder {
 .slideshow .whiteText .ss-sub-title,
 .top-header a,
 .topbar-slider-items a {
-    color: #fff
+    color: #fff;
 }
 
 .index-demo3 .top-info-bar .item a:focus,
@@ -8606,16 +8606,16 @@ textarea:-ms-input-placeholder {
     padding: 10px 30px;
     border-radius: 0;
     margin: 5px 15px;
-    background-color: #2f415d;
+    background-color: #ffc107;
     color: #fff;
-    border-color: #2f415d;
+    border-color: #ffc107;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     position: relative;
     z-index: 1;
-    transition: 150ms ease-in-out
+    transition: 150ms ease-in-out;
 }
 
 .step-checkout .nav-link:after {
