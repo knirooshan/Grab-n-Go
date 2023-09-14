@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="view-collection text-center mt-4 mt-md-5">
-                            <a href="shop-left-sidebar.html" class="btn btn-primary btn-lg rounded-pill">Load more</a>
+                            <a href="" class="btn btn-primary btn-lg rounded-pill">Load more</a>
                         </div>
                     </div>
                     <!--End Product Grid-->
@@ -61,7 +61,7 @@
                         </div>
 
                         <div class="view-collection text-center mt-4 mt-md-5">
-                            <a href="shop-left-sidebar.html" class="btn btn-primary btn-lg rounded-pill">Load more
+                            <a href="" class="btn btn-primary btn-lg rounded-pill">Load more
                                 Products</a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="view-collection text-center mt-4 mt-md-5">
-                            <a href="shop-left-sidebar.html" class="btn btn-primary btn-lg rounded-pill">Load more
+                            <a href="" class="btn btn-primary btn-lg rounded-pill">Load more
                                 Products</a>
                         </div>
                     </div>
