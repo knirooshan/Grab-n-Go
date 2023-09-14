@@ -119,8 +119,8 @@
                                                                             href="product-layout1.html">Fresh Kashmiri
                                                                             Apple</a></div>
                                                                     <div class="product-price"><span
-                                                                            class="old-price">$114.00</span><span
-                                                                            class="price">$99.00</span></div>
+                                                                            class="old-price">LKR 114.00</span><span
+                                                                            class="price">LKR 99.00</span></div>
                                                                     <div
                                                                         class="product-review d-flex align-items-center justify-content-start">
                                                                         <i class="icon anm anm-star"></i><i
@@ -149,7 +149,7 @@
                                                                             href="product-layout1.html">Organic
                                                                             Potatos</a></div>
                                                                     <div class="product-price"><span
-                                                                            class="price">$128.00</span></div>
+                                                                            class="price">LKR 128.00</span></div>
                                                                     <div
                                                                         class="product-review d-flex align-items-center justify-content-start">
                                                                         <i class="icon anm anm-star"></i><i
@@ -178,7 +178,7 @@
                                                                             href="product-layout1.html">Vegan Fresh
                                                                             Tomato</a></div>
                                                                     <div class="product-price"><span
-                                                                            class="price">$99.00</span></div>
+                                                                            class="price">LKR 99.00</span></div>
                                                                     <div
                                                                         class="product-review d-flex align-items-center justify-content-start">
                                                                         <i class="icon anm anm-star"></i><i
@@ -295,8 +295,7 @@
                                 <div class="icon-link clr-none d-flex">
                                     <span class="iconCot"><i class="hdr-icon icon anm anm anm-user-al"></i></span>
                                     <span class="text d-flex flex-column text-left">My Account <small><a
-                                                href="#">Login</a> / <a
-                                                href="#">Register</a></small></span>
+                                                href="#">Login</a> / <a href="#">Register</a></small></span>
                                 </div>
                             </div>
                             <!--End Account desktop-->
@@ -513,9 +512,8 @@
                                 </nav>
                             </div>
                             <div class="col-1 col-sm-1 col-md-1 col-lg-2 align-self-center text-right">
-                                <a href="#" class="store-link text-uppercase">Super Discount <img
-                                        class="ms-1" src="assests/images/icons/go-shape.png" alt="icon" width="38"
-                                        height="38" /></a>
+                                <a href="#" class="store-link text-uppercase">Super Discount <img class="ms-1"
+                                        src="assests/images/icons/go-shape.png" alt="icon" width="38" height="38" /></a>
                             </div>
                         </div>
                     </div>
@@ -650,12 +648,12 @@
                 <li class="mobile-menu-bottom">
                     <div class="mobile-links">
                         <ul class="list-inline d-inline-flex flex-column w-100">
-                            <li><a href="" class="d-flex align-items-center"><i
-                                        class="icon anm anm-sign-in-al"></i>Sign In</a></li>
+                            <li><a href="" class="d-flex align-items-center"><i class="icon anm anm-sign-in-al"></i>Sign
+                                    In</a></li>
                             <li><a href="" class="d-flex align-items-center"><i
                                         class="icon anm anm-user-al"></i>Register</a></li>
-                            <li><a href="" class="d-flex align-items-center"><i
-                                        class="icon anm anm-user-cil"></i>My Account</a></li>
+                            <li><a href="" class="d-flex align-items-center"><i class="icon anm anm-user-cil"></i>My
+                                    Account</a></li>
                             <li class="title h5">Need Help?</li>
                             <li><a href="tel:+94741792020" class="d-flex align-items-center"><i
                                         class="icon anm anm-phone-l"></i>+94741792020</a></li>
@@ -678,3 +676,128 @@
             </ul>
         </div>
         <!--End Mobile Menu-->
+
+        <!--MiniCart Drawer-->
+        <div id="minicart-drawer" class="minicart-right-drawer offcanvas offcanvas-end" tabindex="-1">
+            <!--MiniCart Empty-->
+            <div id="cartEmpty" class="cartEmpty d-flex-justify-center flex-column text-center p-3 text-muted d-none">
+                <div class="minicart-header d-flex-center justify-content-between w-100">
+                    <h4 class="fs-6 body-font">Your cart (0 Items)</h4>
+                    <button class="close-cart border-0" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="icon anm anm-times-r" data-bs-toggle="tooltip" data-bs-placement="left"
+                            title="Close"></i></button>
+                </div>
+                <div class="cartEmpty-content mt-4">
+                    <i class="icon anm anm-basket-l fs-1 text-muted"></i>
+                    <p class="my-3">No Products in the Cart</p>
+                    <a href="index.html" class="btn btn-primary cart-btn">Continue shopping</a>
+                </div>
+            </div>
+            <!--End MiniCart Empty-->
+
+            <!--MiniCart Content-->
+            <div id="cart-drawer" class="block block-cart">
+                <div class="minicart-header">
+                    <button class="close-cart border-0" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="icon anm anm-times-r" data-bs-toggle="tooltip" data-bs-placement="left"
+                            title="Close"></i></button>
+                    <h4 class="fs-6 body-font">Your cart (2 Items)</h4>
+                </div>
+                <div class="minicart-content">
+                    <ul class="m-0 clearfix">
+                        <li class="item d-flex justify-content-center align-items-center">
+                            <a class="product-image rounded-4" href="">
+                                <img class="rounded-4 blur-up lazyload"
+                                    data-src="assests/images/products/cart-vegetables-product-img1.jpg"
+                                    src="assests/images/products/cart-vegetables-product-img1.jpg" alt="product"
+                                    title="Product" width="120" height="170" />
+                            </a>
+                            <div class="product-details">
+                                <a class="product-title" href="">Kashmiri Apple</a>
+                                <div class="variant-cart my-2">Black / XL</div>
+                                <div class="priceRow">
+                                    <div class="product-price">
+                                        <span class="price">LKR 54.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qtyDetail text-center">
+                                <div class="qtyField">
+                                    <a class="qtyBtn minus" href="#;"><i class="icon anm anm-minus-r"></i></a>
+                                    <input type="text" name="quantity" value="1" class="qty rounded-pill">
+                                    <a class="qtyBtn plus" href="#;"><i class="icon anm anm-plus-r"></i></a>
+                                </div>
+                                <a href="#" class="edit-i remove"><i class="icon anm anm-pencil-ar"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"></i></a>
+                                <a href="#" class="remove"><i class="icon anm anm-times-r" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Remove"></i></a>
+                            </div>
+                        </li>
+                        <li class="item d-flex justify-content-center align-items-center">
+                            <a class="product-image rounded-4" href="">
+                                <img class="rounded-4 blur-up lazyload"
+                                    data-src="assests/images/products/cart-vegetables-product-img2.jpg"
+                                    src="assests/images/products/cart-vegetables-product-img2.jpg" alt="product"
+                                    title="Product" width="120" height="170" />
+                            </a>
+                            <div class="product-details">
+                                <a class="product-title" href="">Organic Potatos</a>
+                                <div class="variant-cart my-2">Yellow / M</div>
+                                <div class="priceRow">
+                                    <div class="product-price">
+                                        <span class="price old-price">LKR 114.00</span><span class="price">LKR 99.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qtyDetail text-center">
+                                <div class="qtyField">
+                                    <a class="qtyBtn minus" href="#;"><i class="icon anm anm-minus-r"></i></a>
+                                    <input type="text" name="quantity" value="1" class="qty rounded-pill">
+                                    <a class="qtyBtn plus" href="#;"><i class="icon anm anm-plus-r"></i></a>
+                                </div>
+                                <a href="#" class="edit-i remove"><i class="icon anm anm-pencil-ar"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"></i></a>
+                                <a href="#" class="remove"><i class="icon anm anm-times-r" data-bs-toggle="tooltip"
+                                        data-bs-placement="top" title="Remove"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="minicart-bottom">
+                    <div class="shipinfo">
+                        <div class="progress mb-2">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <div class="freeShipMsg"><i class="icon anm anm-truck-l fs-6 me-2 align-middle"></i>Only <span
+                                class="money" data-currency-usd="LKR 199.00" data-currency="USD">LKR 199.00</span> away from
+                            <b>Free Shipping</b></div>
+                        <div class="freeShipMsg d-none"><i
+                                class="icon anm anm-truck-l fs-6 me-2 align-middle"></i>Congrats! You are eligible for
+                            <b>Free Shipping</b></div>
+                    </div>
+                    <div class="subtotal clearfix my-3">
+                        <div class="totalInfo clearfix mb-1 d-none"><span>Shipping:</span><span
+                                class="item product-price">LKR 10.00</span></div>
+                        <div class="totalInfo clearfix mb-1 d-none"><span>Tax:</span><span
+                                class="item product-price">LKR 0.00</span></div>
+                        <div class="totalInfo clearfix"><span>Total:</span><span
+                                class="item product-price">LKR 163.00</span></div>
+
+                    </div>
+                    <div class="agree-check customCheckbox">
+                        <input id="prTearm" name="tearm" type="checkbox" value="tearm" required />
+                        <label for="prTearm"> I agree with the </label><a href="#" class="ms-1 text-link">Terms &amp;
+                            conditions</a>
+                    </div>
+                    <div class="minicart-action d-flex mt-3">
+                        <a href=""
+                            class="proceed-to-checkout btn btn-outline-secondary rounded-pill w-50 me-1">Check Out</a>
+                        <a href="" class="cart-btn btn btn-outline-primary rounded-pill w-50 ms-1">View
+                            Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!--MiniCart Content-->
+        </div>
+        <!--End MiniCart Drawer-->
