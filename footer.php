@@ -38,12 +38,12 @@
                         class="col-12 col-sm-12 col-md-6 col-lg-3 footer-contact order-1 order-lg-0 mt-1 mt-md-4 mt-lg-0">
                         <h4 class="h4">Contact Info</h4>
                         <p class="phone d-flex align-items-center"><i class="icon anm anm-phone-l d-none"></i> <b
-                                class="me-1">Phone:</b> <b class="me-2 fw-400">Toll Free</b> <a
+                                class="me-1">Phone:</b><a
                                 href="tel:401234567890">+94741792020</a></p>
                         <p class="email d-flex align-items-center"><i class="icon anm anm-envelope-l d-none"></i> <b
                                 class="me-1">Email:</b> <a href="mailto:info@example.com">info@grabandgo.lk</a></p>
                         <p class="address d-flex"><i class="icon anm anm-map-marker-al pt-1 d-none"></i> <b
-                                class="me-1">Address:</b> VWR3+JJ3, Kotte Rd, Sri Jayawardenepura Kotte</p>
+                                class="me-1">Address:</b>Kotte Rd, Sri Jayawardenepura Kotte</p>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-2 footer-links">
                         <h4 class="h4">My Account</h4>
