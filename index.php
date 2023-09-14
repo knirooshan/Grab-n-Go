@@ -61,6 +61,8 @@
         </div>
     </div>
 
+
+
     <?php include('./sections/category-slider.php'); ?>
     <?php include('./sections/product-slider.php'); ?>
     <?php include('./sections/hot-offers.php'); ?>

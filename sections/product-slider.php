@@ -18,7 +18,7 @@
         </div>
 
         <div class="view-collection text-center mt-4 mt-md-5 d-none">
-            <a href="shop-left-sidebar.html" class="btn btn-secondary btn-lg">View Collection</a>
+            <a href="#" class="btn btn-secondary btn-lg">View Collection</a>
         </div>
     </div>
 </section>

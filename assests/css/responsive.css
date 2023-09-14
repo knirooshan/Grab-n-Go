@@ -440,14 +440,14 @@
     .index-demo7 .ctg-bnr-wrap .ctg-image.ratio:before { padding-top: 450px; }
     .index-demo7 .ctg-bnr-wrap .ctg-image.ratio > * { width: auto; margin: 0 auto; right: 0; }
     .index-demo7 .mobileMenu-bg-black { background-color: #ffc107; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #2b6c58; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li a { background-color: #2e7962; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li li a { background-color: #39826b; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav li { border-top-color: #398a71; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li a { background-color: #ffc107; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li a { background-color: #ffc107; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li.lvl1 li li li a { background-color: #ffc107; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav li { border-top-color: #fff; }
     .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover, 
     .index-demo7 .mobileMenu-bg-black #MobileNav li a:hover .icon { color: #f4f4f4; }
-    .index-demo7 .mobileMenu-bg-black .closemobileMenu { background-color: #1e5847; }
-    .index-demo7 .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { border-top-color: #398a71; }
+    .index-demo7 .mobileMenu-bg-black .closemobileMenu { background-color: #000; }
+    .index-demo7 .mobileMenu-bg-black #MobileNav .mobile-menu-bottom .title { border-top-color: #fff; }
     .index-demo7 .slideshow .ss-mega-title { font-size: 36px; }
 
     .header-8 .header-main { padding-top: 15px; padding-bottom: 15px; min-height: 60px; }
