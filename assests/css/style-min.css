@@ -11676,3 +11676,19 @@ textarea:-ms-input-placeholder {
 .slider-buttons{
     display: none!important;
 }
+
+@media (max-width: 1024px){
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-bottom-action{
+        justify-content: center;
+    }
+
+    .product-name-price{
+        flex-direction: column;
+    }
+}

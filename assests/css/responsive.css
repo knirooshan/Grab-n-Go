@@ -185,7 +185,10 @@
     .ipad-hide { display: none !important; }
 
     .row:not(.g-1):not(.g-2):not(.g-3):not(.g-4) { margin-left:-7.5px; margin-right:-7.5px; }
-    .row:not(.g-1):not(.g-2):not(.g-3):not(.g-4) > * { padding-left:7.5px; padding-right:7.5px; }
+    .row:not(.g-1):not(.g-2):not(.g-3):not(.g-4) > * { 
+        padding-left:7.5px; padding-right:7.5px; 
+        text-align: center;
+    }
     .slick-slider.gp10 .slick-list { margin:0 -7.5px; }
     .slick-slider.gp10 .slick-slide { padding:0 7.5px; }
     .grid-mr-20 { margin:-7.5px; }

@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assests/css/index.css">
     <link rel="stylesheet" href="assests/css/offer-product-loop.css">
     <link rel="stylesheet" href="assests/css/product-loop-item.css">
-    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- <link rel="stylesheet" href="assests/css/style.css"> -->
 </head>
 
 <body class="template-index index-demo7">
