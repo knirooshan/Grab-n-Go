@@ -1420,6 +1420,11 @@ progress {
     width: 25%
   }
 
+  .row-cols-lg-4> .icon-box {
+    flex: 0 0 auto;
+    width: 33.33%
+  }
+
   .row-cols-lg-5>* {
     flex: 0 0 auto;
     width: 20%

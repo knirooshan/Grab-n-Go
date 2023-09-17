@@ -143,7 +143,7 @@
     .grid-products.pro-hover3 .item .swatches { padding-bottom: 5px; }
     .grid-products.pro-hover3 .button-bottom-action .btn.rounded-pill { padding-left: 22px; padding-right: 22px; }
     .grid-products.pro-hover3 .button-bottom-action { padding-top: 15px; opacity: 0; visibility: hidden; -webkit-transition: all .3s ease; transition: all .3s ease; position: absolute; }
-    .grid-products .pro-hover3 .item:hover .button-bottom-action { opacity: 1!important; visibility: visible!important; }
+    .grid-products.pro-hover3 .item:hover .button-bottom-action { opacity: 1!important; visibility: visible!important; }
 
     .collection-top-filters { background-color: #f2f2f2; border: 1px solid #efefef; padding: 10px 20px; margin: 0 0 20px; }
     .collection-top-filters .filterDD { padding: 0; width: 295px; color: #000000; background-color: #ffffff; border: 1px solid #edecec; border-radius: 0 0 5px 5px; z-index: 5; }
