@@ -875,9 +875,9 @@ p:last-child {
 
 .btn:focus,
 .btn:hover {
-    background-color: #e96f84;
+    background-color: #000;
     color: #fff;
-    border-color: #e96f84;
+    border-color: #000;
     text-decoration: none;
     opacity: 1
 }
