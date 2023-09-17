@@ -19,7 +19,7 @@
                         <div class="d-flex flex-column flex-sm-row">
                             <input type="email" class="form-control newsletter-input mb-2 mb-sm-0 me-sm-2" name="email"
                                 value="" placeholder="Email address here..." required />
-                            <button type="submit" class="btn btn-primary newsletter-submit mt-1 mt-sm-0 ms-sm-1"
+                            <button type="submit" class="btn btn-primary newsletter-submit mt-1 mt-sm-0 ms-sm-1 nl-submit"
                                 name="commit">Subscribe</button>
                         </div>
                     </div>

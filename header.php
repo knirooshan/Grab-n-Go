@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="assests/css/offer-product-loop.css">
     <link rel="stylesheet" href="assests/css/product-loop-item.css">
     <!-- <link rel="stylesheet" href="assests/css/style.css"> -->
+
+    <style>
+        .nl-submit:hover{
+            color: #000!important;
+            background-color: #fff!important;
+            border-color: #fff!important;
+        }
+    </style>
 </head>
 
 <body class="template-index index-demo7">
