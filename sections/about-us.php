@@ -9,7 +9,7 @@
                         <h1>About Us</h1>
                     </div>
                     <!--Breadcrumbs-->
-                    <div class="breadcrumbs"><a href="index.html" title="Back to the home page">Home</a><span
+                    <div class="breadcrumbs"><a href="" title="Back to the home page">Home</a><span
                             class="main-title fw-bold"><i class="icon anm anm-angle-right-l"></i>About Us</span>
                     </div>
                     <!--End Breadcrumbs-->
@@ -40,7 +40,7 @@
                             suffered alteration in some form, by injected humour, even slightly believable.</p>
                         <p>Internet tend to repeat predefined chunks as necessary, making this the first true generator
                             on the Internet. It uses a dictionary.</p>
-                        <a href="shop-right-sidebar.html" class="btn btn-lg mt-md-2">Explore Now</a>
+                        <a href="" class="btn btn-lg mt-md-2">Explore Now</a>
                     </div>
                 </div>
             </div>
@@ -235,32 +235,32 @@
             <div class="brands-list">
                 <div class="brands-row logo-bar logo-slider-6items gp10 arwOut5">
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo1.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo2.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo3.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo4.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo5.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
                     <div class="brands-logo">
-                        <a href="shop-right-sidebar.html" class="zoom-scal zoom-scal-nopb rounded-0"><img
+                        <a href="" class="zoom-scal zoom-scal-nopb rounded-0"><img
                                 class="rounded-0 blur-up lazyload" src="assests/images/logo/brandlogo6.png"
                                 alt="Brand Logo" title="" width="194" height="97" /></a>
                     </div>
