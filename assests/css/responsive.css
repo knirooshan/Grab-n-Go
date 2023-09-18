@@ -138,7 +138,7 @@
     .hoverDetails .item:hover .product-image .hover { opacity: 1; visibility: visible; }
 
     .grid-products.pro-hover3 .product-image { margin: 0 auto 0; }
-    .grid-products.pro-hover3 .product-details { background-color: #ffffff; padding: 15px 0 0; -webkit-transition: all .3s ease; transition: all .3s ease; -webkit-transform: translateY(0); transform: translateY(0); }
+    .grid-products.pro-hover3 .product-details { background-color: #ffffff; padding: 15px 0; -webkit-transition: all .3s ease; transition: all .3s ease; -webkit-transform: translateY(0); transform: translateY(0); }
     .grid-products.pro-hover3 .item:hover .product-details { opacity: 1; -ms-transform: translateY(-53px); transform: translateY(-53px); }
     .grid-products.pro-hover3 .item .swatches { padding-bottom: 5px; }
     .grid-products.pro-hover3 .button-bottom-action .btn.rounded-pill { padding-left: 22px; padding-right: 22px; }
