@@ -7191,7 +7191,7 @@ textarea:-ms-input-placeholder {
 .pagination .page-item.active .page-link,
 .pagination .page-item:hover .page-link {
     color: #fff;
-    background: #2f415d
+    background: #000
 }
 
 .sidebar-sticky .sidebar-widget .store-info-item:after,
