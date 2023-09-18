@@ -31,6 +31,10 @@
             background-color: #fff!important;
             border-color: #fff!important;
         }
+
+        .product-img .rounded-4{
+            background-color: #f7f6f4;
+        }
     </style>
 </head>
 
